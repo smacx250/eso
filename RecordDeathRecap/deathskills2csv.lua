@@ -5,7 +5,7 @@ local savedVariables = "SavedVariables/RecordDeathRecap.lua"
 dofile(savedVariables)
 
 -- Pointer to entries to process
-local deaths = RecordDeathRecapSavedVariables["Default"]["@smacx250"]["Urlama"]["deaths"];
+local deaths = RecordDeathRecapSavedVariables["Default"]["@<accountName>"]["<characterName>"]["deaths"];
 
 -- For each death, for each skill
 local sums = {}
